@@ -11,6 +11,11 @@ class Fish(Pet):
         self.name = name
         self.age = age
         self.type = "Fish"
+class Cat(Pet):
+    def __init__(self, name,age):
+        self.name = name
+        self.age = age
+        self.type = "Cat"
 
 a1 = Dog("Bob", 7)
 a1.show()
